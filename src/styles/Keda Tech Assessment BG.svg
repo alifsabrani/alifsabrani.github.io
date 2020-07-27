@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.26772in" height="11.6929in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8268 11693"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#44DDEB;stroke-width:41.6654}
+    .str1 {stroke:#B686E3;stroke-width:41.6654}
+    .fil3 {fill:none}
+    .fil5 {fill:#44DDEB}
+    .fil2 {fill:#B686E3}
+    .fil0 {fill:white}
+    .fil4 {fill:url(#id0)}
+    .fil1 {fill:url(#id1)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="2930.03" y1="5334.65" x2="8061.04" y2="7150.24">
+   <stop offset="0" style="stop-opacity:1; stop-color:#44DDEB"/>
+   <stop offset="0.4" style="stop-opacity:1; stop-color:#70A5D7"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#9C6DC2"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="179.945" y1="558.248" x2="2265.7" y2="1585.08">
+   <stop offset="0" style="stop-opacity:1; stop-color:#44DDEB"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#7EA1DE"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" x="-17" y="33" width="8306" height="11667"/>
+  <path class="fil1" d="M-17 33l2479 0c-288,1520 -1033,2168 -2479,2067l0 -2067z"/>
+  <circle class="fil2" cx="6575" cy="3239" r="277"/>
+  <circle class="fil3 str0" cx="4866" cy="4406" r="359"/>
+  <path class="fil4" d="M8289 3863c-788,-162 -1539,-447 -2400,348 -860,796 -857,1012 -2233,1001 -1377,-10 -1556,2215 1454,2089 3010,-127 2822,699 3179,1506l0 -4944z"/>
+  <circle class="fil5" cx="3859" cy="3955" r="277"/>
+  <circle class="fil3 str0" cx="5664" cy="3083" r="168"/>
+  <circle class="fil5" cx="7838" cy="2825" r="402"/>
+  <circle class="fil3 str1" cx="4630" cy="3038" r="400"/>
+ </g>
+</svg>

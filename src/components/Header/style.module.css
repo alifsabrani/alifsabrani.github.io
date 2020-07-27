@@ -1,0 +1,25 @@
+.header {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 1em;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.navs {
+  display: flex;
+  margin-right: 1em;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #48dbfb;
+  font-size: 1.2em;
+  margin-left: 0.5em;
+}

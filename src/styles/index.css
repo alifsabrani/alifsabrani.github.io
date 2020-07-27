@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  background-image: url("./Keda\ Tech\ Assessment\ BG.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}

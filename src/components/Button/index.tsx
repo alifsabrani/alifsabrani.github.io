@@ -1,6 +1,10 @@
 import React from "react";
 import style from "./style.module.css";
 
-export default function Button() {
-  return <button className={style["button"]}>This is a button</button>;
+type Props = {
+  children: Element;
+};
+
+export default function Button({ children }: Props) {
+  return <button className={style["button"]}>{children}</button>;
 }

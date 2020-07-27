@@ -1,5 +1,11 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
-export default function Container() {
-  return <div></div>;
+import styles from "./style.module.css";
+
+type Props = {
+  children: ReactNode;
+};
+
+export default function Container({ children }: Props) {
+  return <div className={styles.container}>{children}</div>;
 }

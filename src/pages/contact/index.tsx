@@ -1,5 +1,10 @@
 import React from "react";
+import Container from "../../components/Container";
 
 export default function Contact() {
-  return <div>This is contact</div>;
+  return (
+    <Container>
+      <div>This is Contact</div>
+    </Container>
+  );
 }

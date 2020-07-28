@@ -6,7 +6,9 @@ import styles from "./style.module.css";
 export default function Header() {
   return (
     <div className={styles.header}>
-      <div className={styles.logo}>Alif Sabrani</div>
+      <NavLink className={styles.navLink} to="/">
+        <div className={styles.logo}>Alif Sabrani</div>
+      </NavLink>
       <div className={styles.navs}>
         <NavLink className={styles.navLink} to="/home">
           Home

@@ -1,16 +1,40 @@
 .row {
   display: flex;
   width: 100%;
-}
-
-.left {
-  justify-content: flex-start;
-}
-
-.center {
+  flex-direction: column;
   justify-content: center;
 }
 
+.left {
+  align-items: flex-start;
+}
+
+.center {
+  align-items: center;
+}
+
 .right {
-  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .left {
+    justify-content: flex-start;
+  }
+
+  .center {
+    justify-content: center;
+  }
+
+  .right {
+    justify-content: flex-end;
+  }
 }

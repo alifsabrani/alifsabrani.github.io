@@ -9,6 +9,7 @@ type Props = {
   variant: "fill" | "transparent";
   size: "s" | "m" | "l";
   color: "primary" | "secondary" | "info" | "success" | "warning" | "danger";
+  icon?: boolean;
 };
 
 const Button: React.FC<Props> = ({
@@ -17,6 +18,7 @@ const Button: React.FC<Props> = ({
   variant,
   size,
   color,
+  icon,
 }) => {
   return (
     <button
@@ -25,7 +27,8 @@ const Button: React.FC<Props> = ({
         styles.button,
         styles[variant],
         styles[size],
-        styles[color]
+        styles[color],
+        { [styles.icon]: icon }
       )}
     >
       {children}

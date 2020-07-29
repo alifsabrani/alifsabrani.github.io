@@ -3,7 +3,6 @@
   padding-right: 1rem;
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
 }
 
 .pageCenter {
@@ -14,10 +13,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
-    margin-top: 0;
-  }
-
   .pageCenter {
     height: 70vh;
   }

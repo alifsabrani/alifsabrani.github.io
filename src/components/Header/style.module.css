@@ -17,7 +17,7 @@
 
 .logo {
   margin-left: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: black;
 }
@@ -39,14 +39,21 @@
 }
 
 .mobileNav > .navLink {
-  margin-top: 0.3rem;
-  margin-bottom: 0.3rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
 }
 
 .navLink {
   text-decoration: none;
-  color: #01a3a4;
-  font-size: 1.2rem;
+  color: #48dbfb;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navLink:hover,
+.navLink:active {
+  color: #28bbdb;
 }
 
 .menuButton {
@@ -78,8 +85,8 @@
   }
 
   .navLink {
-    color: #48dbfb;
-    font-size: 1.2rem;
+    text-transform: none;
+    font-size: 1.1rem;
     font-weight: 600;
     margin-left: 0.5rem;
   }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import { IoIosMenu } from "react-icons/io";
+import { MdMenu } from "react-icons/md";
 
 import styles from "./style.module.css";
 import Button from "../Button";
@@ -39,8 +39,9 @@ export default function Header() {
             size="l"
             color="primary"
             onClick={() => setMenuIsOpen(!menuIsOpen)}
+            icon
           >
-            <IoIosMenu></IoIosMenu>
+            <MdMenu></MdMenu>
           </Button>
         </div>
       </div>

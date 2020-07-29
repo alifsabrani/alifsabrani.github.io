@@ -19,26 +19,28 @@ function App() {
     <div className="app">
       <Router>
         <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Suspense fallback={<div>Loading...</div>}>
-              <Home />
-            </Suspense>
-          </Route>
-          <Route path="/contact">
-            <Suspense fallback={<div>Loading...</div>}>
-              <Contact></Contact>
-            </Suspense>
-          </Route>
-          <Route path="/portofolio">
-            <Suspense fallback={<div>Loading...</div>}>
-              <Portofolio></Portofolio>
-            </Suspense>
-          </Route>
-          <Route path="*">
-            <Redirect to="/"></Redirect>
-          </Route>
-        </Switch>
+        <div className="page">
+          <Switch>
+            <Route exact path="/">
+              <Suspense fallback={<div>Loading...</div>}>
+                <Home />
+              </Suspense>
+            </Route>
+            <Route path="/contact">
+              <Suspense fallback={<div>Loading...</div>}>
+                <Contact></Contact>
+              </Suspense>
+            </Route>
+            <Route path="/portofolio">
+              <Suspense fallback={<div>Loading...</div>}>
+                <Portofolio></Portofolio>
+              </Suspense>
+            </Route>
+            <Route path="*">
+              <Redirect to="/"></Redirect>
+            </Route>
+          </Switch>
+        </div>
       </Router>
     </div>
   );

@@ -1,8 +1,8 @@
 .col {
   display: flex;
   flex-direction: column;
-  margin-left: 0.3em;
-  margin-right: 0.3em;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
 }
 
 .col-1 {

@@ -16,15 +16,15 @@
 }
 
 .logo {
-  margin-left: 1em;
-  font-size: 1em;
+  margin-left: 1rem;
+  font-size: 1rem;
   font-weight: 600;
   color: black;
 }
 
 .navs {
   display: none;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 
 .mobileNav {
@@ -39,19 +39,19 @@
 }
 
 .mobileNav > .navLink {
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 .navLink {
   text-decoration: none;
   color: #01a3a4;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .menuButton {
   display: block;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -62,7 +62,7 @@
     position: relative;
   }
   .logo {
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
 
   .menuButton {
@@ -79,7 +79,8 @@
 
   .navLink {
     color: #48dbfb;
-    font-size: 1.2em;
-    margin-left: 0.5em;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
   }
 }

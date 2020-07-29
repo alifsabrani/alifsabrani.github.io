@@ -1,10 +1,36 @@
 import React from "react";
-import style from "./style.module.css";
+
+import cx from "classnames";
+
+import styles from "./style.module.css";
 
 type Props = {
-  children: Element;
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  variant: "fill" | "transparent";
+  size: "s" | "m" | "l";
+  color: "primary" | "secondary" | "info" | "success" | "warning" | "danger";
 };
 
-export default function Button({ children }: Props) {
-  return <button className={style["button"]}>{children}</button>;
-}
+const Button: React.FC<Props> = ({
+  children,
+  onClick,
+  variant,
+  size,
+  color,
+}) => {
+  return (
+    <button
+      onClick={onClick}
+      className={cx(
+        styles.button,
+        styles[variant],
+        styles[size],
+        styles[color]
+      )}
+    >
+      {children}
+    </button>
+  );
+};
+
+export default Button;

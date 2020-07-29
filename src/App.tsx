@@ -12,6 +12,7 @@ import "./styles/index.css";
 
 const Home = React.lazy(() => import("./pages/home"));
 const Contact = React.lazy(() => import("./pages/contact"));
+const Portofolio = React.lazy(() => import("./pages/portofolio"));
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
-          <Route path="/home">
+          <Route exact path="/">
             <Suspense fallback={<div>Loading...</div>}>
               <Home />
             </Suspense>
@@ -29,8 +30,13 @@ function App() {
               <Contact></Contact>
             </Suspense>
           </Route>
+          <Route path="/portofolio">
+            <Suspense fallback={<div>Loading...</div>}>
+              <Portofolio></Portofolio>
+            </Suspense>
+          </Route>
           <Route path="*">
-            <Redirect to="/home"></Redirect>
+            <Redirect to="/"></Redirect>
           </Route>
         </Switch>
       </Router>

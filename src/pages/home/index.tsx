@@ -20,25 +20,17 @@ export default function Home() {
         </Container>
       </Row>
       <Row align="center">
-        <Container>
-          <Row align="left">
-            <Col size={12}>
-              <h2>ABOUT ME</h2>
-            </Col>
-          </Row>
-          <Row align="center">
-            <Col size={12}>
-              <Paper>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
-                  laborum soluta sequi impedit, voluptate vero quaerat fugiat
-                  magni quos quibusdam non minima. Temporibus, quas deleniti
-                  dignissimos aperiam cumque maxime atque.
-                </p>
-              </Paper>
-            </Col>
-          </Row>
-        </Container>
+        <Col size={12}>
+          <Paper>
+            <h2>ABOUT ME</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex
+              laborum soluta sequi impedit, voluptate vero quaerat fugiat magni
+              quos quibusdam non minima. Temporibus, quas deleniti dignissimos
+              aperiam cumque maxime atque.
+            </p>
+          </Paper>
+        </Col>
       </Row>
     </Container>
   );

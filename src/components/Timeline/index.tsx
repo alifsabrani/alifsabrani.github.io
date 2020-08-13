@@ -1,4 +1,6 @@
 import React from "react";
+import cx from "classnames";
+
 import { TimelineItem } from "../../types";
 
 import styles from "./style.module.css";
@@ -12,20 +14,33 @@ const Timeline: React.FC<Props> = ({ data }) => {
     <div>
       <ul className={styles.timeline}>
         {data.map((item, index) => {
+          const align = index % 2 === 0 ? "right" : "left";
           return (
-            <li key={item.title}>
-              <h3>{item.title}</h3>
-              <p className="text-center">{item.description}</p>
-              <p>
-                {item.startYear !== item.endYear
-                  ? `${item.startYear} - ${item.endYear}`
-                  : item.startYear}
-              </p>
-              {index !== data.length - 1 && <div className={styles.line}></div>}
+            <li
+              key={item.title}
+              className={cx(styles.timelineItem, styles[align])}
+            >
+              <div className={styles.timelineItemImage}>
+                {item.imageURL && (
+                  <a href={item.imageURL}>
+                    <img src={item.imageURL} alt={item.description}></img>
+                  </a>
+                )}
+              </div>
+              <div className={cx(styles.timelineItemBody, styles[align])}>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                <p>
+                  {item.startYear !== item.endYear
+                    ? `${item.startYear} - ${item.endYear}`
+                    : item.startYear}
+                </p>
+              </div>
             </li>
           );
         })}
       </ul>
+      <div className="text-center">Hello People</div>
     </div>
   );
 };

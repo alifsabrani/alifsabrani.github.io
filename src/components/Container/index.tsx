@@ -9,10 +9,12 @@ type Props = {
   pageCenter?: boolean;
 };
 
-export default function Container({ children, pageCenter }: Props) {
+const Container: React.FC<Props> = ({ children, pageCenter }) => {
   return (
     <div className={cx(styles.container, { [styles.pageCenter]: pageCenter })}>
       {children}
     </div>
   );
-}
+};
+
+export default Container;

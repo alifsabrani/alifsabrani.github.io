@@ -8,10 +8,11 @@ import Button from "../Button";
 export default function Header() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
   const currentRoute = useLocation();
+
   useEffect(() => {
-    console.log(currentRoute);
     setMenuIsOpen(false);
   }, [currentRoute]);
+
   return (
     <div className={styles.navContainer}>
       <div className={styles.header}>

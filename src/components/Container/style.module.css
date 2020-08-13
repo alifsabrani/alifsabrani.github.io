@@ -10,10 +10,12 @@
   height: 30vh;
   align-items: center;
   justify-content: center;
+  padding-bottom: 30vh;
 }
 
 @media only screen and (min-width: 768px) {
   .pageCenter {
     height: 90vh;
+    padding-bottom: 0;
   }
 }

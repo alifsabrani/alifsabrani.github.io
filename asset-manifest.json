@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.40aca5a6.chunk.css",
-    "main.js": "/static/js/main.6839a51c.chunk.js",
-    "main.js.map": "/static/js/main.6839a51c.chunk.js.map",
+    "main.js": "/static/js/main.eee41e29.chunk.js",
+    "main.js.map": "/static/js/main.eee41e29.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4c570cd4.js",
     "runtime-main.js.map": "/static/js/runtime-main.4c570cd4.js.map",
-    "static/js/2.68501972.chunk.js": "/static/js/2.68501972.chunk.js",
-    "static/js/2.68501972.chunk.js.map": "/static/js/2.68501972.chunk.js.map",
+    "static/js/2.d2ef6e26.chunk.js": "/static/js/2.d2ef6e26.chunk.js",
+    "static/js/2.d2ef6e26.chunk.js.map": "/static/js/2.d2ef6e26.chunk.js.map",
     "static/css/3.f6c87ae1.chunk.css": "/static/css/3.f6c87ae1.chunk.css",
     "static/js/3.0fb6ce5c.chunk.js": "/static/js/3.0fb6ce5c.chunk.js",
     "static/js/3.0fb6ce5c.chunk.js.map": "/static/js/3.0fb6ce5c.chunk.js.map",
@@ -17,20 +17,20 @@
     "static/js/5.a2ad1879.chunk.js": "/static/js/5.a2ad1879.chunk.js",
     "static/js/5.a2ad1879.chunk.js.map": "/static/js/5.a2ad1879.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bec0253e1dd99420819a454bb228ad01.js": "/precache-manifest.bec0253e1dd99420819a454bb228ad01.js",
+    "precache-manifest.9d5d8f000adb5b08e2bbe2985f84b365.js": "/precache-manifest.9d5d8f000adb5b08e2bbe2985f84b365.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.f6c87ae1.chunk.css.map": "/static/css/3.f6c87ae1.chunk.css.map",
     "static/css/4.77d61c52.chunk.css.map": "/static/css/4.77d61c52.chunk.css.map",
     "static/css/5.599107e0.chunk.css.map": "/static/css/5.599107e0.chunk.css.map",
     "static/css/main.40aca5a6.chunk.css.map": "/static/css/main.40aca5a6.chunk.css.map",
-    "static/js/2.68501972.chunk.js.LICENSE.txt": "/static/js/2.68501972.chunk.js.LICENSE.txt",
+    "static/js/2.d2ef6e26.chunk.js.LICENSE.txt": "/static/js/2.d2ef6e26.chunk.js.LICENSE.txt",
     "static/media/ContactImage.png": "/static/media/ContactImage.e6c823d9.png",
     "static/media/index.css": "/static/media/Keda Tech Assessment BG.852800a4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4c570cd4.js",
-    "static/js/2.68501972.chunk.js",
+    "static/js/2.d2ef6e26.chunk.js",
     "static/css/main.40aca5a6.chunk.css",
-    "static/js/main.6839a51c.chunk.js"
+    "static/js/main.eee41e29.chunk.js"
   ]
 }
